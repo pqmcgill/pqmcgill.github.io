@@ -33,7 +33,7 @@
 		initializeApi = function() {
 			if (!cast_api) {
 				cast_api = new cast.Api();
-				cast_api.addReceiverListener('29DA97FD', onReceiverList);
+				cast_api.addReceiverListener('96645C06', onReceiverList);
 			}
 		};
 
@@ -62,7 +62,7 @@
 
 		doLaunch = function(receiver) {
 			if (!cv_activity) {
-				var request = new cast.LaunchRequest('29DA97FD', receiver);
+				var request = new cast.LaunchRequest('96645C06', receiver);
 
 				$killSwitch.prop('disabled', false);
 
